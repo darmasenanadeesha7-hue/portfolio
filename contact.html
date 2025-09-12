@@ -28,7 +28,8 @@
     <header class="flex items-center justify-between p-4">
 
         <h1 class="text-2xl font-bold">CONTACT US</h1>
-        <nav class="space-x-2">
+        <nav class="gap-2 hidden md:block">
+
             <a href="#home" class="bg-cyan-400 text-black px-4 py-2 font-medium hover:bg-cyan-300 rounded-full">Home</a>
             <a href="#about"
                 class="bg-cyan-400 text-black px-4 py-2 font-medium hover:bg-cyan-300 rounded-full">About</a>
@@ -39,9 +40,10 @@
             <a href="#about2"
                 class="bg-cyan-400 text-black px-4 py-2 font-medium hover:bg-cyan-300 rounded-full">About</a>
         </nav>
+        <button class="md:hidden" onclick="alert(10)">Menu</button> 
 
     </header><br><br>
-    <div class="w-full flex items-center justify-between ">
+    <div class="w-full  flex flex-col md:flex-row items-center justify-between ">
         <div class="w-full md:w-1/2 p-6  rounded-lg h-screen md:h-1/2">
             <img src="/images/contact.jpg" class="w-full h-screen">
         </div>
